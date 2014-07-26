@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>Andrea Bravo Balado</title>
+        <link href="andreabravome.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet" type="text/css">
+    </head>
+
+    <body><a href="https://plus.google.com/116018118719049396588?rel=author"></a>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <script type="text/javascript" async="" src="./Andrea Bravo Balado_files/ga.js"></script><script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-22145502-3']);
+            _gaq.push(['_setDomainName', 'andreabravo.me']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+        <h1 class="title">Andrea Bravo Balado</h1>
+
+        <div class="main">
+
+            <div class="main-info">
+
+                <div id="about" itemscope="" itemtype="http://schema.org/Person">
+                    <div id="schema">
+                        <p>
+                            I'm <span itemprop="name">Andrea Bravo Balado</span>, a <span id="my-age"></span>-year-old <span itemprop="jobTitle">Software Engineer</span> from
+                            <span itemprop="homeLocation" itemscope="" itemtype="http://schema.org/City">
+                                <span itemprop="name">Maracaibo</span>,
+                            </span>
+                            <span itemprop="nationality" itemscope="" itemtype="http://schema.org/Country">
+                                <span itemprop="name">Venezuela</span>.
+                            </span>
+                            <span itemprop="affiliation" itemscope="" itemtype="http://schema.org/Organization">
+                                Studying Artificial Intelligence at <span itemprop="name">VU University Amsterdam</span>.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <p>My professional experience includes working as a volunteer English teacher, freelance travel blogger, software and support engineer at a banking institution, software developer at a tech company, teaching assistant of a Java course and swimming instructor for children. You can find out more about me on my <a href="http://nl.linkedin.com/in/andreacbravob">LinkedIn profile</a> or download my <a href="http://andreabravo.me/CV_ACBravoBalado.pdf" alt="CV">CV</a>.</p>
+
+                <p>I love great conversations, writing every now and then, cooking, creating my own healthy and minimal recipes and posting them on my blog. Beautiful mugs and tins are some of my favorite things and I use them to keep everything as organized as possible. I'm fond of travelling and I'm fascinated by the history of objects and places.</p>
+
+            </div>
+
+            <div id="links">
+
+                <a href="http://blog.andreabravo.me/" alt="theCookInMe">
+                    <div class="square" id="blog"></div>
+                </a>
+                <a href="http://andreabravo.me/CV_ACBravoBalado.pdf" alt="CV">
+                    <div class="square" id="cv"></div>
+                </a>
+                <a href="http://nl.linkedin.com/in/andreacbravob">
+                    <div class="square" id="linkedin"></div>
+                </a>
+                <a href="http://amsterdamdo.com/">
+                    <div class="square" id="amsterdamdo"></div>
+                </a>
+                <a href="https://twitter.com/andreacbravob">
+                    <div class="square" id="twitter"></div>
+                </a>
+                <a href="http://instagram.com/andreacbravob">
+                    <div class="square" id="instagram"></div>
+                </a>
+
+            </div>
+
+        </div>
+
+    <footer>
+        <a class="btn-contact" href="mailto:andreacbravob@gmail.com">Contact Me</a>
+    </footer>
+
+    <script>
+    function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+    document.getElementById("my-age").innerText = getAge("1986-11-03");
+    </script>
+
+    </body>
+
+</html>
